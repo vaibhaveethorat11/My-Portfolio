@@ -1,0 +1,33 @@
+@Import Url("Https://Fonts.Googleapis.Com/Css2?Family=Barlow+Condensed:wght@500&Display=Swap");
+@Import Url("Https://Fonts.Googleapis.Com/Css2?Family=Satisfy&Display=Swap");
+@Import Url("Https://Fonts.Googleapis.Com/Css2?Family=Roboto:wght@300&Display=Swap");
+
+* {
+  Box-Sizing: Border-Box;
+  Margin: 0;
+}
+
+Body,
+Html {
+  Margin: 0;
+  Padding: 0;
+}
+
+/*------------------------Scroll Bar-----------------------*/
+::-Webkit-Scrollbar {
+  Width: 20px;
+}
+
+::-Webkit-Scrollbar-Track {
+  Box-Shadow: Inset 0 0 5px Grey;
+  Border-Radius: 10px;
+}
+
+::-Webkit-Scrollbar-Thumb {
+  Background-Color: #Fde65e;
+  Border-Radius: 10px;
+}
+
+::-Webkit-Scrollbar-Thumb:hover {
+  Background-Color: #Fde02f;
+}
